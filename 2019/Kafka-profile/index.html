@@ -108,25 +108,30 @@
 
 
 
-  <meta name="description" content="官方git（中文） Chrome扩展及应用开发 Google Java Style Maven by Example Java设计模式">
-<meta name="keywords" content="git,书籍推荐,文档推荐">
+  <meta name="description" content="ApacheKafka®是一个分布式流媒体平台。这到底是什么意思呢？流媒体平台有三个关键功能：  发布和订阅记录流，类似于消息队列或企业消息传递系统。 以容错的持久方式存储记录流。 记录发生时处理流。  Kafka通常用于两大类应用：  构建可在系统或应用程序之间可靠获取数据的实时流数据管道 构建转换或响应数据流的实时流应用程序  要了解Kafka如何做这些事情，让我们深入探讨Kafka的能力。">
+<meta name="keywords" content="Kafka">
 <meta property="og:type" content="article">
-<meta property="og:title" content="在线书籍（文档）">
-<meta property="og:url" content="https://www.zeusjs.info/2018/在线书籍推荐/index.html">
+<meta property="og:title" content="Kafka-简介">
+<meta property="og:url" content="https://www.zeusjs.info/2019/Kafka-profile/index.html">
 <meta property="og:site_name" content="Jone的网站">
-<meta property="og:description" content="官方git（中文） Chrome扩展及应用开发 Google Java Style Maven by Example Java设计模式">
+<meta property="og:description" content="ApacheKafka®是一个分布式流媒体平台。这到底是什么意思呢？流媒体平台有三个关键功能：  发布和订阅记录流，类似于消息队列或企业消息传递系统。 以容错的持久方式存储记录流。 记录发生时处理流。  Kafka通常用于两大类应用：  构建可在系统或应用程序之间可靠获取数据的实时流数据管道 构建转换或响应数据流的实时流应用程序  要了解Kafka如何做这些事情，让我们深入探讨Kafka的能力。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-04-12T02:17:09.644Z">
+<meta property="og:image" content="http://kafka.apache.org/22/images/kafka-apis.png">
+<meta property="og:image" content="http://kafka.apache.org/22/images/log_anatomy.png">
+<meta property="og:image" content="http://kafka.apache.org/22/images/log_consumer.png">
+<meta property="og:image" content="http://kafka.apache.org/22/images/consumer-groups.png">
+<meta property="og:updated_time" content="2019-05-10T08:16:05.093Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="在线书籍（文档）">
-<meta name="twitter:description" content="官方git（中文） Chrome扩展及应用开发 Google Java Style Maven by Example Java设计模式">
+<meta name="twitter:title" content="Kafka-简介">
+<meta name="twitter:description" content="ApacheKafka®是一个分布式流媒体平台。这到底是什么意思呢？流媒体平台有三个关键功能：  发布和订阅记录流，类似于消息队列或企业消息传递系统。 以容错的持久方式存储记录流。 记录发生时处理流。  Kafka通常用于两大类应用：  构建可在系统或应用程序之间可靠获取数据的实时流数据管道 构建转换或响应数据流的实时流应用程序  要了解Kafka如何做这些事情，让我们深入探讨Kafka的能力。">
+<meta name="twitter:image" content="http://kafka.apache.org/22/images/kafka-apis.png">
 
 
 
 
 
 
-  <link rel="canonical" href="https://www.zeusjs.info/2018/在线书籍推荐/"/>
+  <link rel="canonical" href="https://www.zeusjs.info/2019/Kafka-profile/"/>
 
 
 
@@ -136,7 +141,7 @@
   };
 </script>
 
-  <title>在线书籍（文档） | Jone的网站</title>
+  <title>Kafka-简介 | Jone的网站</title>
   
 
 
@@ -348,7 +353,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.zeusjs.info/2018/在线书籍推荐/">
+    <link itemprop="mainEntityOfPage" href="https://www.zeusjs.info/2019/Kafka-profile/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jone">
@@ -365,17 +370,13 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">在线书籍（文档）
+          <h2 class="post-title" itemprop="name headline">Kafka-简介
               
             
           </h2>
         
 
         <div class="post-meta">
-            
-              <i class="fa fa-thumb-tack"></i>
-              <font color=7D26CD>置顶</font>
-              <span class="post-meta-divider">|</span>
             
           <span class="post-time">
 
@@ -395,24 +396,12 @@
                 
               
 
-              <time title="创建时间：2018-10-16 14:00:28" itemprop="dateCreated datePublished" datetime="2018-10-16T14:00:28+08:00">2018-10-16</time>
+              <time title="创建时间：2019-05-10 15:26:19 / 修改时间：16:16:05" itemprop="dateCreated datePublished" datetime="2019-05-10T15:26:19+08:00">2019-05-10</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2019-04-12 10:17:09" itemprop="dateModified" datetime="2019-04-12T10:17:09+08:00">2019-04-12</time>
               
             
           </span>
@@ -444,8 +433,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2018/在线书籍推荐/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2018/在线书籍推荐/" itemprop="commentCount"></span>
+                <a href="/2019/Kafka-profile/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/Kafka-profile/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -473,13 +462,89 @@
       
 
       
-        <ul>
-<li><a href="https://git-scm.com/book/zh" target="_blank" rel="noopener">官方git（中文）</a></li>
-<li><a href="http://www.ituring.com.cn/book/miniarticle/110853" target="_blank" rel="noopener">Chrome扩展及应用开发</a></li>
-<li><a href="https://google.github.io/styleguide/javaguide.html" target="_blank" rel="noopener">Google Java Style</a></li>
-<li><a href="https://books.sonatype.com/mvnex-book/reference/index.html" target="_blank" rel="noopener">Maven by Example</a></li>
-<li><a href="https://java-design-patterns.com/" target="_blank" rel="noopener">Java设计模式</a></li>
+        <h3 id="ApacheKafka®是一个分布式流媒体平台。这到底是什么意思呢？"><a href="#ApacheKafka®是一个分布式流媒体平台。这到底是什么意思呢？" class="headerlink" title="ApacheKafka®是一个分布式流媒体平台。这到底是什么意思呢？"></a>ApacheKafka®是<em>一个分布式流媒体平台</em>。这到底是什么意思呢？</h3><p>流媒体平台有三个关键功能：</p>
+<ul>
+<li><strong>发布和订阅</strong>记录流，类似于消息队列或企业消息传递系统。</li>
+<li>以<strong>容错</strong>的持久方式存储记录流。</li>
+<li>记录发生时<strong>处理流</strong>。</li>
 </ul>
+<p>Kafka通常用于两大类应用：</p>
+<ul>
+<li>构建可在系统或应用程序之间<strong>可靠</strong>获取数据的<strong>实时流</strong>数据管道</li>
+<li>构建<strong>转换或响应</strong>数据流的实时流应用程序</li>
+</ul>
+<p>要了解Kafka如何做这些事情，让我们深入探讨Kafka的能力。</p>
+<a id="more"></a>
+<p>首先是几个概念：</p>
+<ul>
+<li>Kafka作为一个集群运行在一个或多个可跨多个数据中心的服务器上。</li>
+<li>Kafka集群以称为<em>主题的</em>类别存储_记录_流。</li>
+<li>每条记录由一个键，一个值和一个时间戳组成。</li>
+</ul>
+<p>Kafka有四个核心API：</p>
+<ul>
+<li>该<a href="http://kafka.apache.org/documentation.html#producerapi" target="_blank" rel="noopener">制片API</a>允许应用程序发布的记录流至一个或多个卡夫卡的话题。</li>
+<li>该<a href="http://kafka.apache.org/documentation.html#consumerapi" target="_blank" rel="noopener">消费者API</a>允许应用程序订阅一个或多个主题，并处理所产生的对他们记录的数据流。</li>
+<li>所述<a href="http://kafka.apache.org/documentation/streams" target="_blank" rel="noopener">流API</a>允许应用程序充当<em>流处理器</em>，从一个或多个主题消耗的输入流，并产生一个输出流至一个或多个输出的主题，有效地变换所述输入流，以输出流。</li>
+<li>该<a href="http://kafka.apache.org/documentation.html#connect" target="_blank" rel="noopener">连接器API</a>允许构建和运行卡夫卡主题连接到<strong>现有</strong>的应用程序或数据系统中重用生产者或消费者。例如，关系数据库的连接器可能捕获对表的每个更改。</li>
+</ul>
+<p><img src="http://kafka.apache.org/22/images/kafka-apis.png" alt=""></p>
+<p>在Kafka中，客户端和服务器之间的通信是通过简单，高性能，语言无关的<a href="https://kafka.apache.org/protocol.html" target="_blank" rel="noopener">TCP协议完成的</a>。此协议已版本化并保持与旧版本的向后兼容性。我们为Kafka提供Java客户端，但客户端有<a href="https://cwiki.apache.org/confluence/display/KAFKA/Clients" target="_blank" rel="noopener">多种语言版本</a>。</p>
+<h4 id="主题和日志"><a href="#主题和日志" class="headerlink" title="主题和日志"></a><a href="#intro_topics">主题和日志</a></h4><p>让我们首先深入探讨Kafka为记录流提供的核心抽象 - <strong>主题</strong>。</p>
+<p>主题是发布记录的类别或订阅源<strong>名称</strong>。Kafka的主题总是<strong>多用户</strong>; 也就是说，一个主题可以有零个，一个或多个消费者订阅写入它的数据。</p>
+<p>对于每个主题，Kafka群集都维护一个<strong>分区日志</strong>，如下所示：</p>
+<p><img src="http://kafka.apache.org/22/images/log_anatomy.png" alt=""></p>
+<p>每个分区都是一个<strong>有序的，不可变的记录序列</strong>，不断附加到结构化的提交日志中。分区中的记录每个都被分配一个称为_偏移_的顺序ID号，它唯一地标识分区中的每个记录。</p>
+<p>Kafka集群持久地保留所有已发布的记录 - 无论它们是否已被消耗 - 使用可配置的保留期。例如，如果保留策略设置为两天，则在发布记录后的两天内，它可供使用，之后将被丢弃以释放空间。Kafka的性能在数据大小方面实际上是<strong>恒定</strong>的，因此长时间存储数据不是问题。</p>
+<p><img src="http://kafka.apache.org/22/images/log_consumer.png" alt=""></p>
+<p>事实上，基于每个消费者保留的唯一元数据是该消费者在<strong>日志中的偏移或位置</strong>。这种偏移由消费者控制：通常消费者在读取记录时会线性地提高其偏移量，但事实上，由于消费者控制位置，它可以按照自己喜欢的任何顺序消费记录。例如，消费者可以重置为较旧的偏移量以重新处理过去的数据，或者跳到最近的记录并从“现在”开始消费。</p>
+<p>这些功能组合意味着<em>Kafka消费者非常便宜</em> - 他们可以来来往往对集群或其他消费者没有太大影响。例如，您可以使用我们的命令行工具“拖尾”任何主题的内容，而无需更改任何现有使用者所消耗的内容。</p>
+<p>日志中的分区有多种用途。首先，它们<em>允许日志扩展到超出适合单个服务器的大小</em>。每个单独的分区必须适合托管它的服务器，但主题可能有许多分区，因此它可以处理任意数量的数据。其次，它们充当了并行性的单位 - 更多的是在一点上。</p>
+<h4 id="分配"><a href="#分配" class="headerlink" title="分配"></a><a href="#intro_distribution">分配</a></h4><p>日志的分区分布在Kafka集群中的服务器上，每个服务器处理数据并请求分区的共享。每个分区都在可配置数量的服务器上进行<em>复制，以实现容错</em>。</p>
+<p>每个分区都有一个服务器充当“领导者”，零个或多个服务器充当“追随者”。领导者处理分区的<strong>所有读取和写入请求</strong>，而关注者被动地复制领导者。如果领导者失败，其中一个粉丝将自动成为新的领导者。每个服务器都充当其某些分区的领导者和其他服务器的追随者，因此负载在群集中很平衡。</p>
+<h4 id="地域复制"><a href="#地域复制" class="headerlink" title="地域复制"></a><a href="#intro_geo-replication">地域复制</a></h4><p>Kafka MirrorMaker为您的群集提供地理复制支持。使用MirrorMaker，可以跨多个数据中心或云区域复制邮件。您可以在主动/被动方案中使用它进行备份和恢复; 或者在主动/主动方案中，使数据更接近用户，或支持数据位置要求。</p>
+<h4 id="生产者"><a href="#生产者" class="headerlink" title="生产者"></a><a href="#intro_producers">生产者</a></h4><p>生产者将数据发布到他们选择的主题。生产者负责选择分配给主题中哪个分区的记录。这可以通过循环方式完成，只是为了平衡负载，或者可以根据一些语义分区功能（例如基于记录中的<em>某些键</em>）来完成。更多关于在一秒钟内使用分区的信息！</p>
+<h4 id="消费者"><a href="#消费者" class="headerlink" title="消费者"></a><a href="#intro_consumers">消费者</a></h4><p>消费者使用<em>消费者组</em>名称标记自己，并且发布到主题的每个记录被传递到每个<em>订阅消费者组</em>中的一个消费者实例。消费者实例可以在单独的进程中，也可以在不同的机器</p>
+<p>如果所有使用者实例具有相同的使用者组，则记录将有效地在使用者实例上进行负载平衡。</p>
+<p>如果所有消费者实例具有不同的消费者组，则每个记录将广播到所有消费者进程。</p>
+<p><img src="http://kafka.apache.org/22/images/consumer-groups.png" alt=""></p>
+<p>两个服务器Kafka群集，托管四个分区（P0-P3），包含两个使用者组。消费者组A有两个消费者实例，B组有四个消费者实例。</p>
+<p>然而，更常见的是，我们发现主题具有少量的消费者群体，每个“逻辑订户”一个。每个组由许多用于可伸缩性和容错的消费者实例组成。这只不过是发布 - 订阅语义，其中订阅者是消费者群集而不是单个进程。</p>
+<p>在Kafka中实现消费的方式是通过在消费者实例上<strong>划分日志中的分区</strong>，以便每个实例在任何时间点都是分配的“公平份额”的独占消费者。维护组中成员资格的过程由Kafka协议动态处理。如果新实例加入该组，他们将从该组的其他成员接管一些分区; 如果实例死亡，其分区将分发给其余实例。</p>
+<p>Kafka仅提供分_区内_记录的总订单，而不是主题中不同分区之间的记录。对于大多数应用程序而言，按分区排序与按键分区数据的能力相结合就足够了。但是，如果您需要对记录进行总订单，则可以使用仅包含一个分区的主题来实现，但这将意味着每个使用者组只有一个使用者进程。</p>
+<h4 id="多租户"><a href="#多租户" class="headerlink" title="多租户"></a><a href="#intro_multi-tenancy">多租户</a></h4><p>您可以将Kafka部署为多租户解决方案。通过配置哪些主题可以生成或使用数据来启用多租户。配额也有运营支持。管理员可以定义和强制执行配额，以控制客户端使用的代理资源。有关更多信息，请参阅<a href="https://kafka.apache.org/documentation/#security" target="_blank" rel="noopener">安全文档</a>。</p>
+<h4 id="担保"><a href="#担保" class="headerlink" title="担保"></a><a href="#intro_guarantees">担保</a></h4><p>在高级别Kafka提供以下保证：</p>
+<ul>
+<li>生产者发送到特定主题分区的消息将按其发送顺序附加。也就是说，如果记录M1由与记录M2相同的生产者发送，并且首先发送M1，则M1将具有比M2更低的偏移并且在日志中更早出现。</li>
+<li>消费者实例按照它们存储在日志中的顺序查看记录。</li>
+<li>对于具有复制因子N的主题，我们将容忍最多N-1个服务器故障，而不会丢失任何提交到日志的记录。</li>
+</ul>
+<p>有关这些保证的更多详细信息，请参见文档的设计部分。</p>
+<h4 id="卡夫卡作为消息系统"><a href="#卡夫卡作为消息系统" class="headerlink" title="卡夫卡作为消息系统"></a><a href="#kafka_mq">卡夫卡作为消息系统</a></h4><p>Kafka的流概念与传统的企业邮件系统相比如何？</p>
+<p>消息传统上有两种模型：<a href="http://en.wikipedia.org/wiki/Message_queue" target="_blank" rel="noopener">排队</a>和<a href="http://en.wikipedia.org/wiki/Publish–subscribe_pattern" target="_blank" rel="noopener">发布 - 订阅</a>。在队列中，消费者池可以从服务器读取并且每个记录转到其中一个; 在发布 - 订阅中，记录被_广播<em>给所有消费者。这两种模型中的每一种都有优点和缺点。排队的优势在于它允许您在多个消费者实例上划分数据处理，从而可以扩展您的处理。不幸的是，</em>一旦一个进程读取它已经消失的数据_，队列就不是​​多用户。发布 - 订阅允许您将数据广播到多个进程，但由于每条消息都发送给每个订阅者，因此无法进行扩展处理。</p>
+<p>卡夫卡的消费者群体概念概括了这两个概念。与队列一样，使用者组允许您将处理划分为一组进程（使用者组的成员）。与发布 - 订阅一样，Kafka允许您向多个消费者组广播消息。</p>
+<p>Kafka模型的优势在于每个<em>主题都具有这些属性 - 它可以扩展处理并且也是多用户</em> - 不需要选择其中一个。</p>
+<p>与传统的消息系统相比，Kafka具有更强的顺序保证。</p>
+<p>传统队列在服务器上按顺序保留记录，如果多个消费者从队列中消耗，则服务器按照存储顺序分发记录。但是，虽然服务器按顺序分发记录，但是记录是异步传递给消费者的，因此它们<em>可能会在不同的消费者上无序传送</em>。这实际上意味着在存在并行消耗的情况下丢失记录的顺序。消息传递系统通常通过具有“独占消费者”的概念来解决这个问题，该概念只允许一个进程从队列中消耗，但这当然意味着处理中没有并行性。</p>
+<p>卡夫卡做得更好。通过在主题中具有并行性概念 - 分区 - ，Kafka能够在消费者流程池中提供顺序保证和负载平衡。<em>这是通过将主题中的分区分配给使用者组中的使用者来实现的</em>，以便每个分区仅由该组中的一个使用者使用。通过这样做，我们确保使用者是该分区的唯一读者并按顺序使用数据。<em>由于有许多分区</em>，这仍然可以平衡许多消费者实例的负载。但请注意，消费者组中的消费者实例不能超过分区。</p>
+<h4 id="Kafka作为存储系统"><a href="#Kafka作为存储系统" class="headerlink" title="Kafka作为存储系统"></a>Kafka作为存储系统</h4><p>任何允许发布与消费它们分离的消息的消息队列实际上充当了正在进行的消息的存储系统。Kafka的不同之处在于它是一个非常好的存储系统。</p>
+<p>写入Kafka的数据将写入磁盘并进行<em>复制以实现容错</em>。Kafka允许生产者等待确认，以便在完全复制之前写入不被认为是完整的，并且即使写入的服务器失败也保证写入仍然存在。</p>
+<p>磁盘结构Kafka很好地使用了规模 - 无论服务器上有50 KB还是50 TB的持久数据，Kafka都会执行相同的操作。</p>
+<p>由于认真对待存储并允许客户端控制其读取位置，您可以将<em>Kafka视为一种专用于高性能，低延迟提交日志存储，复制和传播的专用分布式文件系统。</em></p>
+<p>有关Kafka的提交日志存储和复制设计的详细信息，请阅读<a href="https://kafka.apache.org/documentation/#design" target="_blank" rel="noopener">此</a>页面。</p>
+<h4 id="Kafka用于流处理"><a href="#Kafka用于流处理" class="headerlink" title="Kafka用于流处理"></a>Kafka用于流处理</h4><p>仅仅读取，写入和存储数据流是不够的，目的是实现流的实时处理。</p>
+<p>在Kafka中，流处理器是指从输入主题获取连续数据流，对此输入执行某些处理以及生成连续数据流以输出主题的任何内容。</p>
+<p>例如，零售应用程序可能会接收销售和发货的输入流，并输出重新排序流和根据此数据计算的价格调整。</p>
+<p>可以使用生产者和消费者API直接进行简单处理。但是，对于更复杂的转换，Kafka提供了完全集成的<a href="http://kafka.apache.org/documentation/streams" target="_blank" rel="noopener">Streams API</a>。这允许构建执行非平凡处理的应用程序，这些应用程序可以计算流的聚合或将流连接在一起。</p>
+<p>此工具有助于解决此类应用程序面临的难题：处理无序数据，在代码更改时重新处理输入，执行有状态计算等。</p>
+<p>流API构建在Kafka提供的核心原语上：它使用生产者和消费者API进行输入，使用Kafka进行有状态存储，并在流处理器实例之间使用相同的组机制来实现容错。</p>
+<h4 id="把碎片放在一起"><a href="#把碎片放在一起" class="headerlink" title="把碎片放在一起"></a>把碎片放在一起</h4><p>消息传递，存储和流处理的这种组合可能看起来很不寻常，但它对于Kafka作为流媒体平台的作用至关重要。</p>
+<p>像HDFS这样的分布式文件系统允许存储静态文件以进行批处理。有效地，这样的系统允许存储和处理过去的_历史_数据。</p>
+<p>传统的企业邮件系统允许处理订阅后到达的未来邮件。以这种方式构建的应用程序在到达时处理未来数据。</p>
+<p>Kafka结合了这两种功能，这种组合对于Kafka作为<em>流媒体应用程序平台以及流数据管道</em>的使用至关重要。</p>
+<p>通过组合存储和低延迟订阅，流应用程序可以以相同的方式处理过去和未来的数据。也就是说，单个应用程序可以处理历史存储的数据，而不是在它到达最后一条记录时结束，它可以在未来数据到达时继续处理。这是包含批处理以及消息驱动应用程序的流处理的一般概念。</p>
+<p>同样，对于流数据流水线，订阅实时事件的组合使得可以将Kafka用于极低延迟的流水线; 但是，能够可靠地存储数据使得可以将其用于必须保证数据传输的关键数据，或者与仅定期加载数据或可能长时间停机以进行维护的离线系统集成。流处理设施可以在数据到达时对其进行转换。</p>
+<p>有关Kafka提供的保证，API和功能的更多信息，请参阅其余<a href="http://kafka.apache.org/documentation.html" target="_blank" rel="noopener">文档</a>。</p>
 
       
     </div>
@@ -537,11 +602,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/git/" rel="tag"># git</a>
-          
-            <a href="/tags/书籍推荐/" rel="tag"># 书籍推荐</a>
-          
-            <a href="/tags/文档推荐/" rel="tag"># 文档推荐</a>
+            <a href="/tags/Kafka/" rel="tag"># Kafka</a>
           
         </div>
       
@@ -554,8 +615,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/正则表达式/" rel="next" title="正则表达式手册">
-                <i class="fa fa-chevron-left"></i> 正则表达式手册
+              <a href="/2019/Overview-of-ActiveMQ/" rel="next" title="ActiveMQ功能概述">
+                <i class="fa fa-chevron-left"></i> ActiveMQ功能概述
               </a>
             
           </div>
@@ -563,10 +624,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/online-resource/" rel="prev" title="在线资源">
-                在线资源 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -614,8 +671,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -772,6 +838,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#ApacheKafka®是一个分布式流媒体平台。这到底是什么意思呢？"><span class="nav-number">1.</span> <span class="nav-text">ApacheKafka®是一个分布式流媒体平台。这到底是什么意思呢？</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#主题和日志"><span class="nav-number">1.1.</span> <span class="nav-text">主题和日志</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#分配"><span class="nav-number">1.2.</span> <span class="nav-text">分配</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#地域复制"><span class="nav-number">1.3.</span> <span class="nav-text">地域复制</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#生产者"><span class="nav-number">1.4.</span> <span class="nav-text">生产者</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#消费者"><span class="nav-number">1.5.</span> <span class="nav-text">消费者</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#多租户"><span class="nav-number">1.6.</span> <span class="nav-text">多租户</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#担保"><span class="nav-number">1.7.</span> <span class="nav-text">担保</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#卡夫卡作为消息系统"><span class="nav-number">1.8.</span> <span class="nav-text">卡夫卡作为消息系统</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Kafka作为存储系统"><span class="nav-number">1.9.</span> <span class="nav-text">Kafka作为存储系统</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Kafka用于流处理"><span class="nav-number">1.10.</span> <span class="nav-text">Kafka用于流处理</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#把碎片放在一起"><span class="nav-number">1.11.</span> <span class="nav-text">把碎片放在一起</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
