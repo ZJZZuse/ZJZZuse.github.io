@@ -9,7 +9,6 @@ https://www.zeusjs.info/2019/concurrence/
 https://www.zeusjs.info/2019/分布式简介/
 https://www.zeusjs.info/2018/online-resource/
 https://www.zeusjs.info/2018/在线书籍推荐/
-https://www.zeusjs.info/2018/正则表达式/
 https://www.zeusjs.info/2018/开源许可协议/
 https://www.zeusjs.info/2018/git改变已经提交作者/
 https://www.zeusjs.info/2018/劝学/
