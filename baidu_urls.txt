@@ -1,3 +1,5 @@
+https://www.zeusjs.info/2019/dubbo-architecture/
+https://www.zeusjs.info/2019/dubbo-requirement/
 https://www.zeusjs.info/2019/InnoDB简介/
 https://www.zeusjs.info/2019/spring-mvc请求处理流程/
 https://www.zeusjs.info/2019/Kafka-profile/
