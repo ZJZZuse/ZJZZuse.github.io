@@ -108,19 +108,19 @@
 
 
 
-  <meta name="description" content="需求 在大规模服务化之前，应用可能只是通过 RMI 或 Hessian 等工具，简单的暴露和引用远程服务，通过配置服务的URL地址进行调用，通过 F5 等硬件进行负载均衡。 当服务越来越多时，服务 URL 配置管理变得非常困难，F5 硬件负载均衡器的单点压力也越来越大。 此时需要一个服务注册中心，动态地注册和发现服务，使服务的位置透明。并通过在消费方获取服务提供方地址列表，实现软负载均衡和 Fai">
+  <meta name="description" content="需求">
 <meta name="keywords" content="dubbo,java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="dubbo设计需求">
 <meta property="og:url" content="https://www.zeusjs.info/2019/dubbo-requirement/index.html">
 <meta property="og:site_name" content="Jone的网站">
-<meta property="og:description" content="需求 在大规模服务化之前，应用可能只是通过 RMI 或 Hessian 等工具，简单的暴露和引用远程服务，通过配置服务的URL地址进行调用，通过 F5 等硬件进行负载均衡。 当服务越来越多时，服务 URL 配置管理变得非常困难，F5 硬件负载均衡器的单点压力也越来越大。 此时需要一个服务注册中心，动态地注册和发现服务，使服务的位置透明。并通过在消费方获取服务提供方地址列表，实现软负载均衡和 Fai">
+<meta property="og:description" content="需求">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-service-governance.jpg">
-<meta property="og:updated_time" content="2019-05-28T09:54:31.142Z">
+<meta property="og:updated_time" content="2019-05-28T10:10:37.065Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="dubbo设计需求">
-<meta name="twitter:description" content="需求 在大规模服务化之前，应用可能只是通过 RMI 或 Hessian 等工具，简单的暴露和引用远程服务，通过配置服务的URL地址进行调用，通过 F5 等硬件进行负载均衡。 当服务越来越多时，服务 URL 配置管理变得非常困难，F5 硬件负载均衡器的单点压力也越来越大。 此时需要一个服务注册中心，动态地注册和发现服务，使服务的位置透明。并通过在消费方获取服务提供方地址列表，实现软负载均衡和 Fai">
+<meta name="twitter:description" content="需求">
 <meta name="twitter:image" content="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-service-governance.jpg">
 
 
@@ -393,7 +393,7 @@
                 
               
 
-              <time title="创建时间：2019-05-28 17:47:06 / 修改时间：17:54:31" itemprop="dateCreated datePublished" datetime="2019-05-28T17:47:06+08:00">2019-05-28</time>
+              <time title="创建时间：2019-05-28 17:47:06 / 修改时间：18:10:37" itemprop="dateCreated datePublished" datetime="2019-05-28T17:47:06+08:00">2019-05-28</time>
             
 
             
@@ -459,8 +459,7 @@
       
 
       
-        <h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p><img src="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-service-governance.jpg" alt="image"></p>
-<p>在大规模服务化之前，应用可能只是通过 RMI 或 Hessian 等工具，简单的暴露和引用远程服务，通过配置服务的URL地址进行调用，通过 F5 等硬件进行负载均衡。</p>
+        <h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p><img src="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-service-governance.jpg" alt="image"><br><a id="more"></a><br>在大规模服务化之前，应用可能只是通过 RMI 或 Hessian 等工具，简单的暴露和引用远程服务，通过配置服务的URL地址进行调用，通过 F5 等硬件进行负载均衡。</p>
 <p><strong>当服务越来越多时，服务 URL 配置管理变得非常困难，F5 硬件负载均衡器的单点压力也越来越大。</strong> 此时需要一个服务注册中心，动态地注册和发现服务，使服务的位置透明。并通过在消费方获取服务提供方地址列表，实现<em>软负载均衡</em>和 Failover，降低对 F5 硬件负载均衡器的依赖，也能减少部分成本。</p>
 <p><strong>当进一步发展，服务间依赖关系变得错踪复杂，甚至分不清哪个应用要在哪个应用之前启动，架构师都不能完整的描述应用的架构关系。</strong> 这时，需要自动画出应用间的<em>依赖关系图</em>，以帮助架构师理清理关系。</p>
 <p><strong>接着，服务的调用量越来越大，服务的容量问题就暴露出来，这个服务需要多少机器支撑？什么时候该加机器？</strong> 为了解决这些问题，第一步，要将服务现在每天的调用量，响应时间，都统计出来，作为容量规划的参考指标。其次，要可以动态调整权重，在线上，将某台机器的<em>权重一直加大</em>，并在加大的过程中记录响应时间的变化，直到响应时间到达阈值，记录此时的访问量，再以此访问量乘以机器数反推总容量。</p>

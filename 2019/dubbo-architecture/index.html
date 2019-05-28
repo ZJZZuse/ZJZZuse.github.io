@@ -108,20 +108,20 @@
 
 
 
-  <meta name="description" content="架构 节点角色说明节点 角色说明 Provider 暴露服务的服务提供方 Consumer 调用远程服务的服务消费方 Registry 服务注册与发现的注册中心 Monitor 统计服务的调用次数和调用时间的监控中心 Container 服务运行容器 调用关系说明 服务容器负责启动，加载，运行服务提供者。 服务提供者在启动时，向注册中心注册自己提供的服务。 服务消费者在启动时，向注册中心订阅自己所">
+  <meta name="description" content="架构">
 <meta name="keywords" content="dubbo,java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="dubbo architecture">
 <meta property="og:url" content="https://www.zeusjs.info/2019/dubbo-architecture/index.html">
 <meta property="og:site_name" content="Jone的网站">
-<meta property="og:description" content="架构 节点角色说明节点 角色说明 Provider 暴露服务的服务提供方 Consumer 调用远程服务的服务消费方 Registry 服务注册与发现的注册中心 Monitor 统计服务的调用次数和调用时间的监控中心 Container 服务运行容器 调用关系说明 服务容器负责启动，加载，运行服务提供者。 服务提供者在启动时，向注册中心注册自己提供的服务。 服务消费者在启动时，向注册中心订阅自己所">
+<meta property="og:description" content="架构">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-architecture.jpg">
-<meta property="og:image" content="https://www.zeusjs.info/docs/zh-cn/user/sources/images/dubbo-architecture-future.jpg">
-<meta property="og:updated_time" content="2019-05-28T10:02:59.445Z">
+<meta property="og:image" content="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-architecture-future.jpg">
+<meta property="og:updated_time" content="2019-05-28T10:09:42.870Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="dubbo architecture">
-<meta name="twitter:description" content="架构 节点角色说明节点 角色说明 Provider 暴露服务的服务提供方 Consumer 调用远程服务的服务消费方 Registry 服务注册与发现的注册中心 Monitor 统计服务的调用次数和调用时间的监控中心 Container 服务运行容器 调用关系说明 服务容器负责启动，加载，运行服务提供者。 服务提供者在启动时，向注册中心注册自己提供的服务。 服务消费者在启动时，向注册中心订阅自己所">
+<meta name="twitter:description" content="架构">
 <meta name="twitter:image" content="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-architecture.jpg">
 
 
@@ -394,7 +394,7 @@
                 
               
 
-              <time title="创建时间：2019-05-28 17:55:03 / 修改时间：18:02:59" itemprop="dateCreated datePublished" datetime="2019-05-28T17:55:03+08:00">2019-05-28</time>
+              <time title="创建时间：2019-05-28 17:55:03 / 修改时间：18:09:42" itemprop="dateCreated datePublished" datetime="2019-05-28T17:55:03+08:00">2019-05-28</time>
             
 
             
@@ -461,6 +461,7 @@
 
       
         <h1 id="架构"><a href="#架构" class="headerlink" title="架构"></a>架构</h1><p><img src="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-architecture.jpg" alt="dubbo-architucture"></p>
+<a id="more"></a>
 <h5 id="节点角色说明"><a href="#节点角色说明" class="headerlink" title="节点角色说明"></a>节点角色说明</h5><p>节点</p>
 <p>角色说明</p>
 <p><code>Provider</code></p>
@@ -505,7 +506,7 @@
 <li>服务提供者<em>无状态</em>，可动态增加机器部署实例，注册中心将推送新的服务提供者信息给消费者</li>
 </ul>
 <h2 id="升级性"><a href="#升级性" class="headerlink" title="升级性"></a>升级性</h2><p>当服务集群规模进一步扩大，带动IT治理结构进一步升级，需要实现动态部署，进行流动计算，现有分布式服务架构不会带来阻力。下图是未来可能的一种架构：</p>
-<p><img src="/docs/zh-cn/user/sources/images/dubbo-architecture-future.jpg" alt="dubbo-architucture-futures"></p>
+<p><img src="http://dubbo.apache.org/docs/zh-cn/user/sources/images/dubbo-architecture-future.jpg" alt="dubbo-architucture-futures"></p>
 <h5 id="节点角色说明-1"><a href="#节点角色说明-1" class="headerlink" title="节点角色说明"></a>节点角色说明</h5><p>节点</p>
 <p>角色说明</p>
 <p><code>Deployer</code></p>
